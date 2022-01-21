@@ -2,7 +2,7 @@
 
 "Black is the uncompromising Python code formatter."
 
-- Black doesn’t reformat blocks that start with ```# fmt: off``` and end with ```# fmt: on```, or lines that ends with ```# fmt: skip.```. ```# fmt: on/off`` have to be on the same level of indentation.
+- Black doesn’t reformat blocks that start with ```# fmt: off``` and end with ```# fmt: on```, or lines that ends with ```# fmt: skip```. ```# fmt: on/off`` have to be on the same level of indentation.
 
 - Check black coding style [here](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html). You can also explicitly specify the path to a particular file that you want with ```--config```. In this situation Black will not look for any other file.
 
