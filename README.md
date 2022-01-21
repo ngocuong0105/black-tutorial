@@ -10,6 +10,10 @@
 Black is able to read project-specific default values for its command line options from a pyproject.toml file.
 
 ## Commands
+Run black on particular file:
+```
+black tutorial.py
+```
 
 Passing --check will make Black exit with:
 - code 0 if nothing would change;
