@@ -38,9 +38,3 @@ Run all *.py files in curent directory:
 ```
 black .
 ```
-
-## Questions
-
-Do you have a pyproject.toml config file for black or you use the default.
-
-How can I run multiple files within black?
